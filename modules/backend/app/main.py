@@ -28,7 +28,7 @@ _modules_dir = os.path.abspath(os.path.join(_backend_dir, '..', '..'))
 _ai_engine_dir = os.path.join(_modules_dir, 'ai_engine')
 sys.path.insert(0, _ai_engine_dir)
 
-from modules.ai_engine import run_detection_pipeline
+from modules.ai_engine.ai_engine import run_detection_pipeline
 
 # ── App ───────────────────────────────────────────────────────────────────────
 app = FastAPI(
