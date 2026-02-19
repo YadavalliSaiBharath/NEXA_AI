@@ -1,0 +1,137 @@
+# ─────────────────────────────────────────────────────────────
+# RIFT 2026 Money Mule Detection - .gitignore
+# ─────────────────────────────────────────────────────────────
+
+# ──────────── Python Environment & Packages ────────────────
+venv/
+env/
+ENV/
+.venv
+env.bak/
+venv.bak/
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.Python
+
+# ──────────── Python IDE & Editors ────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+.pylintrc
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# ──────────── Node.js & Frontend ────────────────
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+build/
+dist/
+coverage/
+
+# ──────────── Temporary & Build Files ────────────────
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+tmp/
+temp/
+_tmp/
+*.tmp
+*.bak
+*.backup
+
+# ──────────── Environment Variables & Secrets ────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+secrets.json
+credentials.json
+.aws/
+.credentials
+
+# ──────────── OS Files ────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ──────────── IDE Configuration (example) ────────────────
+.vscode/
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# ──────────── Logs & Output ────────────────
+logs/
+*.log
+.log
+debug/
+*.csv.bak
+output/
+results/
+
+# ──────────── Runtime Generated Files ────────────────
+*.pid
+*.seed
+*.pid.lock
+
+# ──────────── Git ────────────────
+.git/
+.gitkeep
+
+# ──────────── Specific to This Project ────────────────
+modules/backend/app/__pycache__/
+modules/ai_engine/__pycache__/
+modules/ai_engine/detectors/__pycache__/
+modules/ai_engine/utils/__pycache__/
+modules/frontend/node_modules/
+modules/frontend/.next/
+modules/frontend/out/
+integration/data/ai_engine_results.json
+*.csv
+!modules/ai_engine/sample_data/transactions.csv
+
+# ──────────── Temporary Build Files ────────────────
+temp_*.csv
+*_temp.csv
+
+# ──────────── Docker (if applicable) ────────────────
+.dockerignore
+docker-compose.override.yml
+
+# ──────────── CI/CD (if applicable) ────────────────
+.github/workflows/secrets
+.gitlab-ci.yml.local
