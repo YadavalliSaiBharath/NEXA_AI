@@ -1,5 +1,8 @@
 fastapi
-uvicorn[standard]
+uvicorn
 pandas
 networkx
+numpy
 python-multipart
+pydantic
+scikit-learn
