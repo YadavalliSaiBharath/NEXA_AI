@@ -2,14 +2,6 @@
 NEXA AI - Backend API Server
 """
 
-import sys
-import os
-
-# Add project root (rift_hackathon) to Python path
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../"))
-sys.path.append(BASE_DIR)
-
-
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
