@@ -99,7 +99,7 @@ const UploadView: React.FC<UploadViewProps> = ({ onAnalysisComplete }) => {
       }, 500);
 
       const response = await axios.post(
-        'http://localhost:8000/api/analyze/upload',
+        `${process.env.REACT_APP_API_URL || 'http://localhost:8000'}/api/analyze/upload`,
         formData,
         {
           headers: {
