@@ -4,7 +4,7 @@ import {
   Chip, TextField, FormControl, InputLabel, Select,
   MenuItem, Button, Divider, LinearProgress, Alert
 } from '@mui/material';
-import { Search, Refresh, ZoomIn, ZoomOut } from '@mui/icons-material';
+import { Search, Refresh} from '@mui/icons-material';
 import { InputAdornment } from '@mui/material';
 
 interface NetworkViewProps {
